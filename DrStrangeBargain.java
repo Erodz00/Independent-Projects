@@ -1,5 +1,7 @@
 import java.util.*;
-
+/*
+ * Created by Enrique Rodriguez, Contact at erodz2000@gmail.com
+ */
 public class DrStrangeBargain {
 	public static void main(String[] args) throws InterruptedException {
 		Scanner sc = new Scanner(System.in);
