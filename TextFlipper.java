@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+ * Created by Enrique Rodriguez, Contact at erodz2000@gmail.com
+ */
 public class TextFlipper {
 
 	public static void main(String[] args) {
