@@ -1,9 +1,10 @@
 import java.util.Random;
 import java.util.Scanner;
-
+/*
+ * Created by Enrique Rodriguez, Contact at erodz2000@gmail.com
+ */
 public class Password_Maker {
 	private static boolean check;
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Do you want special characters in your password? Yes or No");
