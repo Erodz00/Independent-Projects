@@ -24,7 +24,7 @@ public class InversePermutations {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("How long is our array?");
-		int n = scan.nextInt(), counter = 0, runs = 1;
+		int n = scan.nextInt(), counter = 0, runs = 1, max = 0;
 		int[] arr = new int[n];
 		for (int i = n; i > 0; i--) {
 			arr[counter] = i;
@@ -41,10 +41,12 @@ public class InversePermutations {
 					}
 				}
 			}
+			max = Math.max(total, max);
 			System.out.println();
 			System.out.printf("%d. There are %d inverse pairs in this current permutation.\n",runs, total);
 			runs++;
 		}
+		System.out.println("Maximum amount of inverse pairs was " + max);
 		scan.close();
 	}
 }
